@@ -130,8 +130,8 @@
                                         <div class="col-sm-10">
                                             <input type="text"
                                                 class="form-control @error('currency') is-invalid @enderror" name="currency"
-                                                id="inputEmail" placeholder="USD" value="{{ $setting->currency }}">
-                                                <small class="text-muted">Example: USD (use only abbreviation) </small>
+                                                id="inputEmail" placeholder="Tsh" value="{{ $setting->currency }}">
+                                                <small class="text-muted">Example: Tsh (use only abbreviation) </small>
                                             @error('currency')
                                                 <span class="text-danger">{{ $message }}</span>
                                             @enderror

@@ -116,6 +116,9 @@
 
     </form>
 @stop
+<div class="text-center text-muted small mt-3">
+    Developed by ADOH.NET  COPYRIGHT
+</div>
 
 @section('auth_footer')
     <p class="my-0">
@@ -124,3 +127,6 @@
         </a>
     </p>
 @stop
+<div class="text-center text-muted small mt-3">
+    Developed by ADOH.NET  COPYRIGHT
+</div>

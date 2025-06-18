@@ -1,4 +1,14 @@
-# Appointment Booking System on Laravel made by Vfix Technology
+# Appointment Booking System
+
+A professional appointment booking system built with Laravel. This system is designed to help professionals like astrologers, doctors, consultants,  and more manage their appointments efficiently.
+
+## 📞 Contact Information
+- **GitHub:** [Addy2323](https://github.com/Addy2323)
+- **Phone:** +255 768 828247
+
+---
+
+## 🚀 Features
 
 A versatile and customizable appointment booking system designed for astrologers, doctors, consultants, Salons, Spas, Lawyers, Tutors, Career Coaches, Personal Trainers, Nutritionists, Home services, Plumbers, Electricians, Automotive and other professionals. Features include automated email notifications, multi-user roles, calendar-based scheduling, availability management, and holiday settings.
 
@@ -18,12 +28,20 @@ A versatile and customizable appointment booking system designed for astrologers
 
 ✅ Responsive Design (Works on desktop & mobile)
 
-## Installation
+## 🛠️ Installation
+
+### Prerequisites
+- PHP 8.2 or higher
+- Composer
+- Node.js & NPM
+- MySQL 5.7+ or MariaDB 10.3+
+
+### Setup Instructions
 
 1. Clone the repository:
 
 ```php
-git clone https://github.com/vfixtechnology/appointment-booking-system.git
+git clone https://github.com/Addy2323/appointment-booking-system.git
 ```
 ```php
 cd appointment-booking-system
@@ -87,7 +105,29 @@ user: admin@example.com
 pass: admin123
 
 
-## 📅 How to Use?
+## 📅 Usage Guide
+
+### For Professionals
+1. Log in to your account
+2. Set your availability and working hours
+3. Manage appointments from the dashboard
+4. Receive email notifications for new bookings
+
+### For Clients
+1. Browse available professionals
+2. Book appointments based on available slots
+3. Receive confirmation emails
+4. Reschedule or cancel appointments as needed
+
+## 🔧 Support
+For any issues or questions, please contact:
+- **GitHub:** [Addy2323](https://github.com/Addy2323)
+- **Phone:** +255 768 828247
+
+---
+
+## 📝 License
+This project is open-source and available under the MIT License.
 Create Account For Professionals (Doctors, Astrologers, or etc.)
 
 ✅ Set Availability: Define working hours & multiple slots per day.
@@ -119,11 +159,10 @@ Create Account For Professionals (Doctors, Astrologers, or etc.)
 For installation assistance, premium support, or custom feature development:
 
 #### Contact Our Team:
-📱 WhatsApp: https://wa.me/918447525204
+📱 WhatsApp: https://wa.me/+255768828247
 
-✉ Email: info@vfixtechnology.com
+✉ Email: myambaado@gmail.com
 
-🌐 Website: https://www.vfixtechnology.com
 
 Paid support packages available for enterprise implementations and custom integrations.
 
@@ -137,4 +176,4 @@ If you find this package useful, please consider showing your support by:
 
 Your support helps maintain and improve this project for everyone.
 
-#### For any help or customization, visit https://www.vfixtechnology.com or email us info@vfixtechnology.com
+#### For any help or customization, visit email us myambaado@gmail.com

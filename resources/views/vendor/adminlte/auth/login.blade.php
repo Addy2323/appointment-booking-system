@@ -3,6 +3,9 @@
 @section('adminlte_css_pre')
     <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}">
 @stop
+<div class="text-center text-muted small mt-3">
+    Developed by ADOH.NET  COPYRIGHT
+</div>
 
 @php( $login_url = View::getSection('login_url') ?? config('adminlte.login_url', 'login') )
 @php( $register_url = View::getSection('register_url') ?? config('adminlte.register_url', 'register') )
@@ -95,6 +98,9 @@
 
     </form>
 @stop
+<div class="text-center text-muted small mt-3">
+    Developed by ADOH.NET  COPYRIGHT
+</div>
 
 @section('auth_footer')
     {{-- Password reset link --}}
@@ -115,3 +121,6 @@
         </p>
     @endif
 @stop
+<div class="text-center text-muted small mt-3">
+    Developed by ADOH.NET  COPYRIGHT
+</div>

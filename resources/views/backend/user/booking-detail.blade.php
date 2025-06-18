@@ -106,12 +106,7 @@
                                         <td>{{ $booking->birth_place }}</td>
                                         <td>{{ $booking->birth_time }}</td>
 
-                                        @if ($booking->payment_mode == 'Razorpay')
-                                            <td>{{ Number::currency($booking->amount, 'inr') }}</td>
-                                        @endif
-                                        @if ($booking->payment_mode == 'Paypal')
-                                            <td>{{ Number::currency($booking->amount / 83, 'usd') }}</td>
-                                        @endif
+                                        <td>{{ Number::currency($booking->amount, 'tsh') }}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -143,13 +138,7 @@
 
                                         <tr>
                                             <th>Total:</th>
-                                            @if ($booking->payment_mode == 'Razorpay')
-                                                <td>{{ Number::currency($booking->amount, 'inr') }}</td>
-                                            @endif
-
-                                            @if ($booking->payment_mode == 'Paypal')
-                                                <td>{{ Number::currency($booking->amount / 83, 'usd') }}</td>
-                                            @endif
+                                            <td>{{ Number::currency($booking->amount, 'tsh') }}</td>
 
                                         </tr>
                                     </tbody>

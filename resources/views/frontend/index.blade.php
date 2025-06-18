@@ -254,7 +254,7 @@
     <footer>
         <div class="container pb-2">
             <div class="row text-center">
-            <span>Designed & Developed by <a target="_blank" href="https://www.vfixtechnology.com">VFIX TECHNOLOGY</a></span>
+            <span>Developed by ADOH.NET  COPYRIGHT</span>
             </div>
         </div>
     </footer>
