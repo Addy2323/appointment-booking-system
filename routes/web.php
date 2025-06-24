@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\CategoryController;
@@ -113,5 +114,18 @@ Route::post('/appointments/update-status', [AppointmentController::class, 'updat
 
 //update status from dashbaord
 Route::post('/update-status', [DashboardController::class, 'updateStatus'])->name('dashboard.update.status');
+
+// Test email route
+Route::get('/test-email', function() {
+    try {
+        Mail::raw('This is a test email from Laravel', function($message) {
+            $message->to('myambaado@gmail.com')
+                    ->subject('Test Email from Laravel');
+        });
+        return 'Test email sent successfully!';
+    } catch (\Exception $e) {
+        return 'Error: ' . $e->getMessage();
+    }
+});
 
 
